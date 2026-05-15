@@ -1,28 +1,137 @@
 # Data Analytics Learning Track 📊
 
-Hi, I'm Sagar. Welcome to my learning space! 
+# Hi, I'm Sagar 👋
 
-This repository is my personal log of learning Data Analytics from scratch. Instead of dumping everything at once, I am building my foundation step-by-step and uploading my daily code, assignments, and notes to track my progress.
+### B.Tech CSE Student | Aspiring Data Analyst | Power BI • SQL • Python
 
-### 🛠️ Current Tech Stack
-* **Currently Working With:** Python (NumPy, Pandas, Matplotlib, Seaborn)
-* **Upcoming Tools:** SQL, Power BI, Excel, Tableau, Snowflake
+Welcome to my **Data Analytics Learning Journey Repository** 📊
 
-### 📂 Repository Structure & Progress
+This repository showcases my hands-on learning journey in Data Analytics through:
+- Python projects
+- SQL problem solving
+- Power BI dashboards
+- Data visualization
+- Practical assignments
+- Real-world datasets
 
-**1. Python & Data Analysis** ✅ (Completed)
-* **What I did:** Cleaned dirty datasets, handled missing values, wrote custom functions, and built basic visualizations.
-* **Folder:** [`01_python_libraries`](./01_python_libraries)
+I focus on learning by building and practicing consistently instead of only consuming tutorials.
 
-**2. Statistics & Exploratory Data Analysis** ⏳ (Next)
-* **Focus:** Descriptive stats, probability, hypothesis testing, and feature engineering.
+---
 
-**3. SQL & Databases** 🔜 (Upcoming)
-* **Focus:** Microsoft SQL Server, complex queries, joins, and window functions.
+# 🚀 Tech Stack
 
-**4. BI Tools & Cloud Data** 🔜 (Upcoming)
-* **Focus:** Dashboards in Power BI and Tableau, advanced Excel, and Snowflake basics.
-* *(Note: My large, end-to-end dashboard projects will get their own dedicated repositories on my profile soon).*
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge)
 
-### 💡 Why this format?
-I believe in mastering one tool properly before moving to the next. Feel free to explore the folders above to see my raw code, logic, and assignments.
+---
+
+# 📂 Repository Structure
+
+| Folder | Description |
+|---|---|
+| `01_python_libraries` | Python practice, EDA, visualization & assignments |
+| `02_ms_sql` | SQL queries, joins, aggregations & database practice |
+| `03_power_bi` | Power BI dashboards, DAX & visual analytics |
+
+---
+
+# 📁 Python Libraries Practice
+
+Topics Covered:
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Data Cleaning
+- Exploratory Data Analysis
+- GroupBy Operations
+- MultiIndex DataFrames
+
+### Preview
+
+![Python Analysis](01_python_libraries/screenshot/python_analysis.png)
+
+---
+
+# 📁 Microsoft SQL Server Practice
+
+Topics Covered:
+- SELECT Queries
+- WHERE Clause
+- GROUP BY & HAVING
+- SQL Joins
+- CASE Statements
+- LIKE Operator
+- Aggregate Functions
+- Duplicate Handling
+
+### Preview
+
+![SQL Queries](02_ms_sql/screenshot/sql_queries.png)
+
+---
+
+# 📁 Power BI Dashboards
+
+Topics Covered:
+- Dashboard Building
+- KPI Analysis
+- Interactive Reports
+- DAX Functions
+- Data Modeling
+- Business Insights
+
+### Dashboard Preview
+
+![Power BI Dashboard](03_power_bi/screenshot/powerbi_visuals.png)
+
+---
+
+# 📈 Current Progress
+
+✅ Python Fundamentals  
+✅ NumPy & Pandas  
+✅ SQL Basics & Joins  
+✅ Power BI Fundamentals  
+✅ Dashboard Building  
+
+🔄 Currently Learning:
+- Advanced SQL
+- DAX
+- Statistics
+- End-to-End Analytics Projects
+
+---
+
+# 🎯 Career Goal
+
+My goal is to become a job-ready Data Analyst by developing:
+- strong analytical thinking
+- practical project experience
+- dashboard development skills
+- business problem-solving ability
+
+---
+
+# 🌱 Learning Philosophy
+
+> Learn → Practice → Build → Improve → Repeat
+
+---
+
+# 📬 Connect With Me
+
+### LinkedIn
+(Add your LinkedIn profile link)
+
+### GitHub
+(Add your GitHub profile link)
+
+---
+
+⭐ Thanks for visiting my repository!
