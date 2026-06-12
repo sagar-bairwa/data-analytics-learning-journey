@@ -104,7 +104,7 @@ Topics Covered:
 
 ### Dashboard Preview
 
-![Excel Dashboard](04_ms_excel/excel_dashboard_1/dashboard.png)
+![Excel Dashboard](04_ms_excel/excel_dashboard_1/screenshot.png)
 
 ---
 
