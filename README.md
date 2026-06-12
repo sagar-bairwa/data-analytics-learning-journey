@@ -110,14 +110,20 @@ Topics Covered:
 
 # 📈 Current Progress
 
-✅ Python Fundamentals & Libraries (NumPy, Pandas, Matplotlib, Seaborn)
-✅ Statistics Fundamentals & Hypothesis Testing
-✅ SQL (Basics, Joins, Window Functions & Advanced Concepts)
-✅ Power BI Dashboard Development
-✅ Data Visualization & Business Reporting
-✅ Excel Dashboard Development
+- ✅ Python Fundamentals & Libraries (NumPy, Pandas, Matplotlib, Seaborn)
 
-🔄 Currently Learning:
+- ✅ Statistics Fundamentals & Hypothesis Testing
+
+- ✅ SQL (Basics, Joins, Window Functions & Advanced Concepts)
+
+- ✅ Power BI Dashboard Development
+
+- ✅ Data Visualization & Business Reporting
+
+- ✅ Excel Dashboard Development
+
+### 🔄 Currently Learning
+
 - Excel Dashboard Projects
 - Power Query (Excel)
 - Advanced Data Analytics Projects
