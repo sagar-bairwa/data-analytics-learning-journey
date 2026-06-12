@@ -21,12 +21,13 @@ I focus on learning by building and practicing consistently instead of only cons
 # 🚀 Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
 ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge)
+![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
 
 ---
 
@@ -37,6 +38,7 @@ I focus on learning by building and practicing consistently instead of only cons
 | `01_python_libraries` | Python practice, EDA, visualization & assignments |
 | `02_ms_sql` | SQL queries, joins, aggregations & database practice |
 | `03_power_bi` | Power BI dashboards, DAX & visual analytics |
+| `04_ms_excel` | Excel dashboards, Pivot Tables & Charts |
 
 ---
 
@@ -92,19 +94,34 @@ Topics Covered:
 
 ---
 
+# 📁 Microsoft Excel
+
+Topics Covered:
+- Pivot Tables
+- Pivot Charts
+- Dashboard Building
+- Revenue & Profit Analysis
+
+### Dashboard Preview
+
+![Excel Dashboard](04_ms_excel/excel_dashboard_1/dashboard.png)
+
+---
+
 # 📈 Current Progress
 
-✅ Python Fundamentals  
-✅ NumPy & Pandas  
-✅ SQL Basics & Joins  
-✅ Power BI Fundamentals  
-✅ Dashboard Building  
+✅ Python Fundamentals & Libraries (NumPy, Pandas, Matplotlib, Seaborn)
+✅ Statistics Fundamentals & Hypothesis Testing
+✅ SQL (Basics, Joins, Window Functions & Advanced Concepts)
+✅ Power BI Dashboard Development
+✅ Data Visualization & Business Reporting
+✅ Excel Dashboard Development
 
 🔄 Currently Learning:
-- Advanced SQL
-- DAX
-- Statistics
-- End-to-End Analytics Projects
+- Excel Dashboard Projects
+- Power Query (Excel)
+- Advanced Data Analytics Projects
+- Portfolio Building
 
 ---
 
@@ -127,11 +144,10 @@ My goal is to become a job-ready Data Analyst by developing:
 # 📬 Connect With Me
 
 ### LinkedIn
-(Add your LinkedIn profile link)
+www.linkedin.com/in/sagarbairwa
 
 ### GitHub
-(Add your GitHub profile link)
-
+https://github.com/sagar-bairwa
 ---
 
 ⭐ Thanks for visiting my repository!
