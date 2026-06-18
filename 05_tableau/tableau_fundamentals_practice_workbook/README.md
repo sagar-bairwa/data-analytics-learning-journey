@@ -1,228 +1,123 @@
-\# 📊 Tableau Fundamentals Practice Workbook
+# 📊 Tableau Fundamentals Practice Workbook
 
+> A hands-on Tableau learning project where I explored core data visualization techniques, chart creation, dashboard design, and Tableau fundamentals using the Superstore Sales dataset.
 
+## 📌 Overview
 
-> A hands-on Tableau practice workbook created while learning Tableau fundamentals as part of my Data Analytics journey.
+This project was created as part of my Data Analytics learning journey to gain practical experience with Tableau.
 
+Using the Superstore Sales dataset, I experimented with multiple visualization types and dashboard-building techniques to understand how data can be transformed into meaningful business insights.
 
+The primary goal of this workbook was to build a strong foundation in Tableau before moving on to more advanced analytics and business-focused dashboard projects.
 
-\## 📌 Overview
+---
 
+## 🛠️ Tools Used
 
+- Tableau Public
+- Microsoft Excel
 
-This workbook contains multiple Tableau visualizations and exercises created to understand core Tableau concepts, dashboard design, chart creation, and data visualization best practices.
+---
 
+## 📊 Skills & Concepts Practiced
 
+- Dimensions & Measures
+- Bar and Column Charts
+- Line Charts
+- Area Charts
+- Pie Charts
+- Treemaps
+- Scatter Plots
+- Donut Charts
+- Packed Bubble Charts
+- Symbol Maps
+- Filters
+- Dashboard Design
+- Data Storytelling Fundamentals
 
-The goal of this workbook was to gain practical experience with Tableau before building complete end-to-end analytics projects.
+---
 
+## 📂 Dataset
 
+**Dataset:** Superstore Sales Sample Dataset
 
-\---
+The dataset includes information related to:
 
+- Orders
+- Sales
+- Profit
+- Products
+- Customers
+- Categories
+- Regions
 
+---
 
-\## 🛠️ Tools Used
-
-
-
-\- Tableau Public
-
-\- Microsoft Excel
-
-
-
-\---
-
-
-
-\## 📚 Tableau Concepts Practiced
-
-
-
-\- Bar Charts
-
-\- Column Charts
-
-\- Line Charts
-
-\- Area Charts
-
-\- Pie Charts
-
-\- Treemaps
-
-\- Scatter Plots
-
-\- Donut Charts
-
-\- Packed Bubble Charts
-
-\- Filters
-
-\- Formatting
-
-\- Dashboard Creation
-
-
-
-\---
-
-
-
-\## 📂 Dataset
-
-
-
-Dataset Used:
-
-
-
-\- Superstore Sales Sample Dataset
-
-
-
-The dataset contains information related to:
-
-
-
-\- Orders
-
-\- Sales
-
-\- Profit
-
-\- Customers
-
-\- Products
-
-\- Categories
-
-\- Regions
-
-
-
-\---
-
-
-
-\## 🎯 Learning Objectives
-
-
-
-Through this workbook, I practiced:
-
-
-
-\- Connecting Excel data to Tableau
-
-\- Creating different visualization types
-
-\- Understanding dimensions and measures
-
-\- Applying filters and sorting
-
-\- Formatting worksheets
-
-\- Building dashboards
-
-\- Improving data storytelling skills
-
-
-
-\---
-
-
-
-\## 📁 Project Structure
-
-
+## 🔄 Learning Workflow
 
 ```text
+Excel Dataset
+      ↓
+Data Exploration
+      ↓
+Visualization Creation
+      ↓
+Dashboard Design
+      ↓
+Workbook Development
+```
 
-Tableau Fundamentals Practice Workbook
+---
 
+## 📸 Workbook Preview
+
+![Dashboard](screenshots/dashboard.png)
+
+> Additional visualizations and worksheets are available inside the Tableau workbook.
+
+---
+
+## 🎯 Key Learning Outcomes
+
+Through this project, I gained hands-on experience with:
+
+- Connecting external datasets to Tableau
+- Building multiple chart types
+- Creating dashboards from scratch
+- Applying filters and formatting
+- Understanding visualization best practices
+- Developing foundational data storytelling skills
+
+---
+
+## 📁 Project Structure
+
+```text
+tableau_fundamentals_practice_workbook
 │
-
-├── Tableau\_Fundamentals\_Practice\_Workbook.twbx
-
-├── superstore\_sales\_sample\_data.xls
-
-├── screenshots/
-
-│   ├── dashboard.png
-
-│   ├── chart\_1.png
-
-│   ├── chart\_2.png
-
-│   └── ...
-
+├── Tableau_Fundamentals_Practice_Workbook.twbx
+├── superstore_sales_sample_data.xls
+├── screenshots
+│   └── dashboard.png
 └── README.md
-
 ```
 
+---
 
+## 🚀 Why This Project Matters
 
-\---
+This workbook represents my first practical step into Tableau and serves as the foundation for future Tableau projects involving real-world business analysis, interactive dashboards, and advanced data visualization techniques.
 
+---
 
+## 👨‍💻 Author
 
-\## 📸 Workbook Preview
-
-
-
-Add screenshots of your workbook here.
-
-
-
-```markdown
-
-!\[Dashboard](screenshots/dashboard.png)
-
-```
-
-
-
-\---
-
-
-
-\## 🚀 Key Takeaway
-
-
-
-This workbook represents my Tableau learning phase where I explored different visualization techniques and dashboard-building concepts before moving to more advanced business-focused Tableau projects.
-
-
-
-\---
-
-
-
-\## 👨‍💻 Author
-
-
-
-\*\*Sagar Bairwa\*\*
-
-
+**Sagar Bairwa**
 
 Aspiring Data Analyst
 
-
-
-\- SQL
-
-\- Python
-
-\- Power BI
-
-\- Tableau
-
-
+**Skills:** SQL • Python • Power BI • Tableau • Excel
 
 GitHub: https://github.com/sagar-bairwa
 
 LinkedIn: https://linkedin.com/in/sagarbairwa
-
