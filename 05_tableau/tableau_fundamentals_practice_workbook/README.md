@@ -95,14 +95,15 @@ Through this project, I gained hands-on experience with:
 ```text
 tableau_fundamentals_practice_workbook
 │
-├── Tableau_Fundamentals_Practice_Workbook.twbx
+├── tableau_practice_workbook.twbx
 ├── superstore_sales_sample_data.xls
 ├── screenshots
-│   └── dashboard.png
+│   ├── dashboard.png
+│   ├── bubble_chart.png
+│   ├── lollipop_chart.png
+│   └── symbol_map.png
 └── README.md
 ```
-
----
 
 ## 🚀 Why This Project Matters
 
