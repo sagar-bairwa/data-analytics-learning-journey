@@ -61,7 +61,7 @@ This folder contains my hands-on learning and practice with Python and its core 
 
 ## 📸 Analysis Preview
 
-![Python Analysis](screenshots/python_analysis.png)
+![Python Analysis](screenshot/python_analysis.png)
 
 ---
 
