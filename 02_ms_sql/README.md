@@ -1,206 +1,78 @@
-\# 🗄️ SQL for Data Analytics
+# SQL for Data Analytics
 
+This folder contains hands-on SQL practice and mini analysis projects completed using Microsoft SQL Server as part of my Data Analytics learning journey.
 
+The focus was to develop practical SQL skills for querying, cleaning, transforming, and analyzing structured data.
 
-This folder contains my hands-on SQL practice and mini-analysis projects completed as part of my Data Analytics learning journey.
+## Tools
 
+* Microsoft SQL Server
+* SQL Server Management Studio (SSMS)
+* CSV Datasets
 
+## Concepts Covered
 
-The focus was to develop strong SQL skills for querying, transforming, cleaning, and analyzing structured data using real-world business scenarios.
+* Data Retrieval & Filtering
+* Aggregations & Reporting
+* GROUP BY & HAVING
+* CASE Statements
+* Joins
+* Duplicate Detection
+* Pattern Matching using LIKE
 
-
-
-\---
-
-
-
-\## 🛠️ Tools Used
-
-
-
-\* Microsoft SQL Server
-
-\* SQL Server Management Studio (SSMS)
-
-\* CSV Datasets
-
-
-
-\---
-
-
-
-\## 📚 SQL Concepts Covered
-
-
-
-\* Data Retrieval \& Filtering
-
-\* Sorting \& Pattern Matching
-
-\* Aggregations \& Reporting
-
-\* GROUP BY \& HAVING
-
-\* CASE Statements
-
-\* Joins (Inner \& Left)
-
-\* Duplicate Detection
-
-\* Business-Oriented Data Analysis
-
-
-
-\---
-
-
-
-\## 📂 Folder Structure
-
-
+## Folder Structure
 
 ```text
-
-02\_ms\_sql/
-
+02_ms_sql/
 │
-
 ├── dataset/
-
-│   └── ecommerce\_practice\_dataset.csv
-
+│   └── ecommerce_practice_dataset.csv
 │
-
 ├── screenshot/
-
-│   └── city\_wise\_customer\_distribution.png
-
+│   └── city_wise_customer_distribution.png
 │
-
-├── sql\_queries/
-
-│   ├── case\_statement.sql
-
+├── sql_queries/
+│   ├── case_statement.sql
 │   ├── duplicates.sql
-
-│   ├── e\_commerce\_data\_analysis.sql
-
-│   ├── join\_practise\_1.sql
-
-│   ├── joins\_practise\_2.sql
-
-│   └── like\_statement.sql
-
+│   ├── e_commerce_data_analysis.sql
+│   ├── join_practise_1.sql
+│   ├── joins_practise_2.sql
+│   └── like_statement.sql
 │
-
 └── README.md
-
 ```
 
+## Preview
 
+![SQL Analysis](screenshot/city_wise_customer_distribution.png)
 
-\---
+## Practice Files
 
+| File                         | Description                             |
+| ---------------------------- | --------------------------------------- |
+| case_statement.sql           | Conditional logic using CASE statements |
+| duplicates.sql               | Detecting duplicate records             |
+| e_commerce_data_analysis.sql | E-commerce data analysis queries        |
+| join_practise_1.sql          | Join practice exercises                 |
+| joins_practise_2.sql         | Multi-table analysis using joins        |
+| like_statement.sql           | Pattern matching using LIKE             |
 
+## Skills Gained
 
-\## 📸 Query Output Preview
+* SQL Query Writing
+* Data Filtering & Aggregation
+* Multi-Table Analysis
+* Data Cleaning Logic
+* Business Data Analysis
+* Reporting-Oriented Query Development
 
-
-
-!\[SQL Analysis](screenshot/city\_wise\_customer\_distribution.png)
-
-
-
-\---
-
-
-
-\## 📌 Practice Highlights
-
-
-
-| SQL File                     | Description                     |
-
-| ---------------------------- | ------------------------------- |
-
-| case\_statement.sql           | Conditional logic using CASE    |
-
-| duplicates.sql               | Identifying duplicate records   |
-
-| e\_commerce\_data\_analysis.sql | Business-oriented data analysis |
-
-| join\_practise\_1.sql          | Join practice queries           |
-
-| joins\_practise\_2.sql         | Multi-table analysis            |
-
-| like\_statement.sql           | Pattern matching using LIKE     |
-
-
-
-\---
-
-
-
-\## 🎯 Key Skills Gained
-
-
-
-\* SQL Query Writing
-
-\* Data Filtering \& Aggregation
-
-\* Multi-Table Analysis
-
-\* Data Cleaning Logic
-
-\* Business Data Analysis
-
-\* Reporting-Oriented Query Development
-
-
-
-\---
-
-
-
-\## 🚀 Outcome
-
-
+## Outcome
 
 After completing this section, I can:
 
-
-
-\* Extract insights from structured datasets
-
-\* Perform business-oriented SQL analysis
-
-\* Work with multiple tables using joins
-
-\* Identify and handle duplicate data
-
-\* Apply conditional logic using CASE statements
-
-\* Prepare data for BI and dashboarding tools
-
-
-
-\---
-
-
-
-\## 🔗 Next Learning Modules
-
-
-
-➡ Power BI
-
-➡ Microsoft Excel
-
-➡ Tableau
-
-➡ Snowflake
-
-
-
+* Extract insights from structured datasets
+* Analyze business data using SQL
+* Work with multiple tables using joins
+* Identify and handle duplicate data
+* Apply conditional logic using CASE statements
+* Prepare data for dashboards and reporting tools
