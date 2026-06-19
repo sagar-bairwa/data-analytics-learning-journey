@@ -59,7 +59,7 @@ The objective of this section was to learn how to transform raw data into intera
 
 ## Dashboard Preview
 
-<img src="screenshot/dashboard.png" width="900">
+![Power BI Dashboard](screenshot/powerbi_visuals.png)
 
 ## Files Included
 
