@@ -8,7 +8,7 @@ The project combines SQL-based data preparation with Tableau dashboard developme
 
 ## 📊 Dashboard Preview
 
-![Dashboard](Screenshots/dashboard.png)
+![Dashboard](screenshots/dashboard.png)
 
 ---
 
