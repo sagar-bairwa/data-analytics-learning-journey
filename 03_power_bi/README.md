@@ -1,54 +1,38 @@
-# Power BI for Data Analytics
+# 📊 Power BI Dashboard Development
 
-This folder contains my hands-on practice with Microsoft Power BI, covering data visualization, dashboard development, and DAX fundamentals.
+This folder showcases my hands-on practice with Microsoft Power BI, where I learned how to transform raw data into interactive dashboards and business reports.
 
-The objective of this section was to learn how to transform raw data into interactive reports and dashboards that support data-driven decision-making.
+Using Power BI, DAX, and Power Query, I built visual reports that help analyze sales performance, profit trends, customer segments, and business KPIs.
 
-## Tools Used
+## Dashboard Preview
+
+<p align="center">
+  <img src="screenshot/powerbi_visuals.png" width="900">
+</p>
+
+## Key Dashboard Components
+
+* Sales by Segment Analysis
+* Profit Tracking & KPI Monitoring
+* Sales Target Performance
+* Category & Regional Analysis
+* Interactive Visualizations
+* Business Reporting Metrics
+
+## Tools & Technologies
 
 * Microsoft Power BI Desktop
 * DAX (Data Analysis Expressions)
-* Microsoft Excel
 * Power Query
+* Microsoft Excel
 
-## Topics Covered
-
-### Data Visualization
-
-* Bar Charts
-* Column Charts
-* Line Charts
-* Pie & Donut Charts
-* KPI Cards
-* Tables & Matrix Visuals
-
-### Dashboard Development
-
-* Interactive Reports
-* Visual Formatting
-* Slicers & Filters
-* Dashboard Layout Design
-
-### DAX Fundamentals
-
-* Calculated Columns
-* Measures
-* Aggregations
-* Basic Business Calculations
-
-### Data Preparation
-
-* Data Loading
-* Data Cleaning
-* Data Transformation using Power Query
-
-## Folder Structure
+## Project Files
 
 ```text
 03_power_bi/
 │
 ├── screenshot/
-│   └── dashboard.png
+│   └── powerbi_visuals.png
 │
 ├── dax_functions.pbix
 ├── visual_charts.pbix
@@ -57,44 +41,34 @@ The objective of this section was to learn how to transform raw data into intera
 └── README.md
 ```
 
-## Dashboard Preview
+## Files Overview
 
-![Power BI Dashboard](screenshot/powerbi_visuals.png)
+| File               | Purpose                                 |
+| ------------------ | --------------------------------------- |
+| dax_functions.pbix | DAX calculations and measures practice  |
+| visual_charts.pbix | Dashboard and visualization development |
+| dv_sales_data.xlsx | Dataset used for reporting and analysis |
 
-## Files Included
-
-| File               | Description                               |
-| ------------------ | ----------------------------------------- |
-| dax_functions.pbix | Practice of DAX measures and calculations |
-| visual_charts.pbix | Data visualization and chart creation     |
-| dv_sales_data.xlsx | Dataset used for report development       |
-
-## Key Skills Gained
+## Skills Developed
 
 * Dashboard Development
 * Data Visualization
+* KPI Design
 * DAX Fundamentals
-* Business Reporting
-* KPI Creation
 * Power Query Transformations
+* Business Reporting
 * Interactive Report Design
 
-## Outcome
+## Learning Outcome
 
-After completing this section, I can:
+Through this project, I learned how to:
 
-* Build interactive Power BI dashboards
-* Create reports using multiple visualizations
-* Write basic DAX measures and calculations
-* Transform data using Power Query
-* Present business insights through dashboards
+* Build professional dashboards
+* Create meaningful business KPIs
+* Design interactive reports
+* Transform and prepare data using Power Query
+* Use DAX for analytical calculations
+* Present insights through data storytelling
 
-## Next Learning Modules
-
-➡ Microsoft Excel
-
-➡ Tableau
-
-➡ Snowflake
-
-➡ End-to-End Analytics Projects
+```
+```
