@@ -1,268 +1,98 @@
-\# AWS S3 to Snowflake Data Pipeline with Tableau
+# Renewable Energy Analytics Pipeline
+### AWS S3 → Snowflake → Tableau
 
+End-to-End Cloud Data Pipeline for ingesting, transforming, and visualizing renewable energy consumption data using AWS S3, Snowflake, SQL, and Tableau.
 
+---
 
-End-to-End Cloud Data Analytics Workflow using AWS S3, Snowflake, SQL, and Tableau.
+## Project Overview
 
+This project demonstrates a modern cloud analytics workflow where renewable energy consumption data is stored in AWS S3, loaded into Snowflake through Storage Integrations, transformed using SQL, and visualized in Tableau through an interactive dashboard.
 
+---
 
-\## Overview
-
-
-
-This project demonstrates how renewable energy consumption data can be ingested from AWS S3, securely integrated with Snowflake using IAM Roles and Storage Integrations, transformed using SQL, and visualized in Tableau.
-
-
-
-The primary focus of this project is implementing a real-world cloud data pipeline and data warehousing workflow rather than dashboard development alone.
-
-
-
-\---
-
-
-
-\## Architecture
-
-
+## Architecture
 
 ```text
-
-Renewable Energy Dataset
-
-&#x20;       │
-
-&#x20;       ▼
-
-AWS S3 Bucket
-
-&#x20;       │
-
-&#x20;       ▼
-
-IAM Role + Trust Policy
-
-&#x20;       │
-
-&#x20;       ▼
-
-Snowflake Storage Integration
-
-&#x20;       │
-
-&#x20;       ▼
-
-External Stage
-
-&#x20;       │
-
-&#x20;       ▼
-
-Snowflake Tables
-
-&#x20;       │
-
-&#x20;       ▼
-
-SQL Validation \& Transformation
-
-&#x20;       │
-
-&#x20;       ▼
-
-Tableau Dashboard
-
+Dataset → AWS S3 → IAM Role → Snowflake Storage Integration
+        → External Stage → Snowflake Tables
+        → SQL Transformation → Tableau Dashboard
 ```
 
+---
 
+## Key Highlights
 
-\---
+- Configured AWS IAM Role and Trust Policy
+- Implemented Snowflake Storage Integration
+- Created External Stage for secure data ingestion
+- Loaded renewable energy data from AWS S3 into Snowflake
+- Performed SQL-based validation and transformation
+- Connected Snowflake directly to Tableau
+- Developed an interactive Renewable Energy Dashboard
 
+---
 
+## Project Preview
 
-\## Project Workflow
+### AWS ↔ Snowflake Integration
 
+IAM Role and Trust Policy used for secure communication between AWS S3 and Snowflake.
 
+![AWS Integration](screenshots/aws_integration.png)
 
-\* Uploaded renewable energy dataset to AWS S3
+### Snowflake Storage Integration
 
-\* Created IAM Role and configured Trust Policy
+Storage Integration validation and stage configuration inside Snowflake.
 
-\* Created Snowflake Storage Integration
+![Storage Integration](screenshots/sql_storage_integration.png)
 
-\* Connected Snowflake with AWS S3 securely
-
-\* Created External Stage in Snowflake
-
-\* Loaded data into Snowflake tables
-
-\* Performed SQL-based data validation and transformation
-
-\* Connected Snowflake directly to Tableau
-
-\* Built an interactive energy consumption dashboard
-
-
-
-\---
-
-
-
-\## Key Skills Demonstrated
-
-
-
-AWS S3 • AWS IAM • Snowflake • Storage Integration • SQL • Data Warehousing • Data Transformation • Tableau • Cloud Analytics
-
-
-
-\---
-
-
-
-\## Technologies Used
-
-
-
-\* AWS S3
-
-\* AWS IAM
-
-\* Snowflake
-
-\* SQL
-
-\* Tableau
-
-\* Tableau Public
-
-
-
-\---
-
-
-
-\## Project Preview
-
-
-
-\### Secure AWS ↔ Snowflake Integration
-
-
-
-IAM Role and Trust Relationship used to securely connect AWS S3 with Snowflake.
-
-
-
-!\[AWS Integration](screenshots/aws\_integration.png)
-
-
-
-\---
-
-
-
-\### Snowflake Storage Integration Validation
-
-
-
-Verification of Snowflake Storage Integration and external stage configuration.
-
-
-
-!\[Snowflake Storage Integration](screenshots/sql\_storage\_integration.png)
-
-
-
-\---
-
-
-
-\### Energy Consumption Dashboard
-
-
+### Renewable Energy Dashboard
 
 Interactive Tableau dashboard built on transformed Snowflake data.
 
+![Dashboard](screenshots/dashboard.png)
 
+---
 
-!\[Energy Dashboard](screenshots/dashboard.png)
+## Live Dashboard
 
+📊 **Tableau Public Dashboard**
 
+[View Interactive Dashboard](YOUR_TABLEAU_PUBLIC_LINK)
 
-\---
+---
 
+## Skills Demonstrated
 
+**AWS S3 • AWS IAM • Snowflake • SQL • Data Warehousing • Storage Integration • Tableau • Cloud Analytics**
 
-\## Live Dashboard
+---
 
-
-
-📊 Tableau Public Dashboard
-
-
-
-\[View Interactive Dashboard](YOUR\_TABLEAU\_PUBLIC\_LINK)
-
-
-
-\---
-
-
-
-\## Repository Structure
-
-
+## Repository Structure
 
 ```text
-
-aws\_s3\_snowflake\_tableau/
-
-
+aws_s3_snowflake_tableau/
 
 ├── dataset/
-
-│   └── renewable\_energy\_usage\_sampled.csv
-
+│   └── renewable_energy_usage_sampled.csv
 │
-
 ├── screenshots/
-
-│   ├── aws\_integration.png
-
-│   ├── sql\_storage\_integration.png
-
+│   ├── aws_integration.png
+│   ├── sql_storage_integration.png
 │   └── dashboard.png
-
 │
-
-├── integrate\_and\_load\_data.sql
-
-├── energy\_consumption\_dashboard.twbx
-
+├── integrate_and_load_data.sql
+├── energy_consumption_dashboard.twbx
 └── README.md
-
 ```
 
+---
 
+## Author
 
-\---
-
-
-
-\## Author
-
-
-
-\*\*Sagar Bairwa\*\*
-
-
+**Sagar Bairwa**
 
 B.Tech CSE | Aspiring Data Analyst
 
-
-
-\*\*Skills:\*\* SQL • Tableau • Power BI • Python • Snowflake • AWS • Data Analytics
-
-
-
+SQL • Tableau • Power BI • Python • Snowflake • AWS
