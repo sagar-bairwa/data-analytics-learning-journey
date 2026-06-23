@@ -71,7 +71,7 @@ Interactive Tableau dashboard built on transformed Snowflake data.
 Explore the interactive Tableau dashboard online:
 
 🔗 **Tableau Public:**  
-PASTE_YOUR_TABLEAU_PUBLIC_LINK_HERE
+N
 
 📁 Tableau Workbook Included: `energy_consumption_dashboard.twbx`
 
