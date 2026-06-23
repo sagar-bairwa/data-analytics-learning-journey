@@ -1,4 +1,4 @@
-# Renewable Energy Analytics Pipeline
+# Renewable Energy Analysis
 ### AWS S3 • Snowflake • SQL • Tableau
 
 End-to-End Cloud Data Pipeline for ingesting, transforming, and visualizing renewable energy consumption data using AWS S3, Snowflake, SQL, and Tableau.
