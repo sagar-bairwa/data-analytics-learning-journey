@@ -1,74 +1,97 @@
 # 📊 Power BI Dashboard Development
 
-This folder showcases my hands-on practice with Microsoft Power BI, where I learned how to transform raw data into interactive dashboards and business reports.
+## Overview
 
-Using Power BI, DAX, and Power Query, I built visual reports that help analyze sales performance, profit trends, customer segments, and business KPIs.
+This repository contains my hands-on Power BI practice projects focused on transforming raw business data into interactive dashboards and actionable insights.
+
+Using Power BI, Power Query, and DAX, I built reports that analyze sales performance, profitability, customer segments, and key business metrics through effective data visualization and reporting techniques.
+
+---
 
 ## Dashboard Preview
 
-<p align="center">
-  <img src="screenshot/powerbi_visuals.png" width="900">
-</p>
+![Power BI Dashboard](./screenshot/dashboard.png)
 
-## Key Dashboard Components
+---
 
-* Sales by Segment Analysis
-* Profit Tracking & KPI Monitoring
-* Sales Target Performance
-* Category & Regional Analysis
-* Interactive Visualizations
-* Business Reporting Metrics
+## Key Features
+
+### 📈 Business Performance Analysis
+- Sales trend analysis
+- Profit monitoring
+- KPI tracking
+- Category-wise performance
+
+### 🎯 Interactive Reporting
+- Dynamic filtering
+- Drill-down analysis
+- Business-focused visualizations
+- User-friendly dashboard design
+
+### 🧮 DAX & Analytics
+- Calculated Measures
+- Aggregations
+- KPI Calculations
+- Business Metrics
+
+### 🔄 Data Transformation
+- Data cleaning
+- Data preparation
+- Data modeling
+- Power Query transformations
+
+---
 
 ## Tools & Technologies
 
-* Microsoft Power BI Desktop
-* DAX (Data Analysis Expressions)
-* Power Query
-* Microsoft Excel
+| Tool | Purpose |
+|--------|---------|
+| Microsoft Power BI | Dashboard Development |
+| DAX | Analytical Calculations |
+| Power Query | Data Transformation |
+| Microsoft Excel | Data Source Preparation |
+
+---
+
+## Skills Demonstrated
+
+- Data Visualization
+- Dashboard Development
+- KPI Design
+- Business Reporting
+- DAX Fundamentals
+- Data Modeling
+- Power Query
+- Data Cleaning
+- Analytical Thinking
+
+---
 
 ## Project Files
 
-```text
-03_power_bi/
-│
-├── screenshot/
-│   └── powerbi_visuals.png
-│
-├── dax_functions.pbix
-├── visual_charts.pbix
-├── dv_sales_data.xlsx
-│
-└── README.md
-```
+| File | Description |
+|--------|---------|
+| visual_charts.pbix | Visualization and dashboard development |
+| dax_functions.pbix | DAX calculations and measures practice |
+| dv_sales_data.xlsx | Dataset used for analysis |
 
-## Files Overview
+---
 
-| File               | Purpose                                 |
-| ------------------ | --------------------------------------- |
-| dax_functions.pbix | DAX calculations and measures practice  |
-| visual_charts.pbix | Dashboard and visualization development |
-| dv_sales_data.xlsx | Dataset used for reporting and analysis |
+## What I Learned
 
-## Skills Developed
+- Designing interactive business dashboards
+- Creating meaningful KPIs and metrics
+- Writing DAX calculations for reporting
+- Transforming data using Power Query
+- Building data-driven reports for decision-making
+- Presenting insights through visual storytelling
 
-* Dashboard Development
-* Data Visualization
-* KPI Design
-* DAX Fundamentals
-* Power Query Transformations
-* Business Reporting
-* Interactive Report Design
+---
 
-## Learning Outcome
+## Author
 
-Through this project, I learned how to:
+**Sagar Bairwa**
 
-* Build professional dashboards
-* Create meaningful business KPIs
-* Design interactive reports
-* Transform and prepare data using Power Query
-* Use DAX for analytical calculations
-* Present insights through data storytelling
+Aspiring Data Analyst | SQL | Power BI | Python | Excel
 
-```
-```
+GitHub: https://github.com/sagar-bairwa
