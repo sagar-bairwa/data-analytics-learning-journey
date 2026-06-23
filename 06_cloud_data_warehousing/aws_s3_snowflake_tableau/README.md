@@ -1,5 +1,5 @@
 # Renewable Energy Analytics Pipeline
-### AWS S3 → Snowflake → Tableau
+### AWS S3 • Snowflake • SQL • Tableau
 
 End-to-End Cloud Data Pipeline for ingesting, transforming, and visualizing renewable energy consumption data using AWS S3, Snowflake, SQL, and Tableau.
 
@@ -11,22 +11,33 @@ This project demonstrates a modern cloud analytics workflow where renewable ener
 
 ---
 
-## Architecture
+## Workflow
 
 ```text
-Dataset → AWS S3 → IAM Role → Snowflake Storage Integration
-        → External Stage → Snowflake Tables
-        → SQL Transformation → Tableau Dashboard
+Renewable Energy Dataset
+        ↓
+AWS S3 Bucket
+        ↓
+IAM Role & Trust Policy
+        ↓
+Snowflake Storage Integration
+        ↓
+External Stage
+        ↓
+Snowflake Tables
+        ↓
+SQL Validation & Transformation
+        ↓
+Tableau Dashboard
 ```
 
----
+### Implementation Steps
 
-## Key Highlights
-
-- Configured AWS IAM Role and Trust Policy
-- Implemented Snowflake Storage Integration
+- Uploaded renewable energy dataset to AWS S3
+- Configured IAM Role and Trust Policy
+- Created Snowflake Storage Integration
 - Created External Stage for secure data ingestion
-- Loaded renewable energy data from AWS S3 into Snowflake
+- Loaded data into Snowflake tables
 - Performed SQL-based validation and transformation
 - Connected Snowflake directly to Tableau
 - Developed an interactive Renewable Energy Dashboard
@@ -57,15 +68,24 @@ Interactive Tableau dashboard built on transformed Snowflake data.
 
 ## Live Dashboard
 
-📊 **Tableau Public Dashboard**
+Explore the interactive Tableau dashboard online:
 
-[View Interactive Dashboard](YOUR_TABLEAU_PUBLIC_LINK)
+🔗 **Tableau Public:**  
+PASTE_YOUR_TABLEAU_PUBLIC_LINK_HERE
+
+📁 Tableau Workbook Included: `energy_consumption_dashboard.twbx`
 
 ---
 
 ## Skills Demonstrated
 
-**AWS S3 • AWS IAM • Snowflake • SQL • Data Warehousing • Storage Integration • Tableau • Cloud Analytics**
+- AWS S3 & IAM
+- Snowflake Storage Integration
+- Cloud Data Warehousing
+- SQL Data Transformation
+- Data Validation
+- Tableau Dashboard Development
+- End-to-End Analytics Workflow
 
 ---
 
