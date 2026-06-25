@@ -116,7 +116,6 @@ azure_blob_snowflake_tableau/
 * Microsoft Azure Blob Storage
 * Snowflake
 * SQL
-* Tableau Desktop
 * Tableau Public
 
 ---
@@ -126,5 +125,3 @@ azure_blob_snowflake_tableau/
 **Sagar Bairwa**
 
 B.Tech CSE | Aspiring Data Analyst
-
-**Skills:** SQL • Tableau • Power BI • Python • Snowflake • Azure
