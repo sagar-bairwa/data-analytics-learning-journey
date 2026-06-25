@@ -1,13 +1,14 @@
 # Renewable Energy Analysis
-### AWS S3 • Snowflake • SQL • Tableau
 
-End-to-End Cloud Data Pipeline for ingesting, transforming, and visualizing renewable energy consumption data using AWS S3, Snowflake, SQL, and Tableau.
+### Azure Blob Storage • Snowflake • SQL • Tableau
+
+End-to-End Cloud Data Pipeline for ingesting, transforming, and visualizing renewable energy consumption data using **Azure Blob Storage**, **Snowflake**, **SQL**, and **Tableau**.
 
 ---
 
 ## Project Overview
 
-This project demonstrates a modern cloud analytics workflow where renewable energy consumption data is stored in AWS S3, loaded into Snowflake through Storage Integrations, transformed using SQL, and visualized in Tableau through an interactive dashboard.
+This project demonstrates a modern cloud analytics workflow where renewable energy consumption data is stored in **Azure Blob Storage**, securely loaded into **Snowflake** using **Azure Storage Integration**, transformed with SQL, and visualized through an interactive Tableau dashboard.
 
 ---
 
@@ -16,9 +17,7 @@ This project demonstrates a modern cloud analytics workflow where renewable ener
 ```text
 Renewable Energy Dataset
         ↓
-AWS S3 Bucket
-        ↓
-IAM Role & Trust Policy
+Azure Blob Storage
         ↓
 Snowflake Storage Integration
         ↓
@@ -31,30 +30,32 @@ SQL Validation & Transformation
 Tableau Dashboard
 ```
 
-### Implementation Steps
+---
 
-- Uploaded renewable energy dataset to AWS S3
-- Configured IAM Role and Trust Policy
-- Created Snowflake Storage Integration
-- Created External Stage for secure data ingestion
-- Loaded data into Snowflake tables
-- Performed SQL-based validation and transformation
-- Connected Snowflake directly to Tableau
-- Developed an interactive Renewable Energy Dashboard
+## Implementation Steps
+
+* Uploaded the renewable energy dataset to Azure Blob Storage.
+* Created an Azure Storage Account and Blob Container.
+* Configured Azure Storage Integration in Snowflake.
+* Created an External Stage pointing to the Azure Blob Container.
+* Loaded data from Azure Blob Storage into Snowflake tables.
+* Validated and transformed data using SQL.
+* Connected Snowflake directly to Tableau.
+* Built an interactive Renewable Energy Dashboard in Tableau.
 
 ---
 
 ## Project Preview
 
-### AWS ↔ Snowflake Integration
+### Azure Blob Storage
 
-IAM Role and Trust Policy used for secure communication between AWS S3 and Snowflake.
+Dataset stored securely inside an Azure Blob Storage container before ingestion into Snowflake.
 
-![AWS Integration](screenshots/aws_integration.png)
+![Azure Integration](screenshots/azure_integration.png)
 
 ### Snowflake Storage Integration
 
-Storage Integration validation and stage configuration inside Snowflake.
+Storage Integration and External Stage configured to securely access Azure Blob Storage.
 
 ![Storage Integration](screenshots/sql_storage_integration.png)
 
@@ -70,42 +71,53 @@ Interactive Tableau dashboard built on transformed Snowflake data.
 
 Explore the interactive Tableau dashboard online:
 
-🔗 **Tableau Public:**  
-N
+🔗 **Tableau Public:** *(Add your Tableau Public link here)*
 
-📁 Tableau Workbook Included: `energy_consumption_dashboard.twbx`
+📁 **Tableau Workbook Included:** `energy_consumption_dashboard.twbx`
 
 ---
 
 ## Skills Demonstrated
 
-- AWS S3 & IAM
-- Snowflake Storage Integration
-- Cloud Data Warehousing
-- SQL Data Transformation
-- Data Validation
-- Tableau Dashboard Development
-- End-to-End Analytics Workflow
+* Azure Blob Storage
+* Azure Storage Account
+* Snowflake Storage Integration
+* External Stage Configuration
+* Cloud Data Warehousing
+* SQL Data Transformation
+* Data Validation
+* Tableau Dashboard Development
+* End-to-End Cloud Analytics Pipeline
 
 ---
 
 ## Repository Structure
 
 ```text
-aws_s3_snowflake_tableau/
+azure_blob_snowflake_tableau/
 
 ├── dataset/
 │   └── renewable_energy_usage_sampled.csv
 │
 ├── screenshots/
-│   ├── aws_integration.png
+│   ├── azure_integration.png
 │   ├── sql_storage_integration.png
 │   └── dashboard.png
 │
-├── integrate_and_load_data.sql
+├── azure_ETL.sql
 ├── energy_consumption_dashboard.twbx
 └── README.md
 ```
+
+---
+
+## Technologies Used
+
+* Microsoft Azure Blob Storage
+* Snowflake
+* SQL
+* Tableau Desktop
+* Tableau Public
 
 ---
 
@@ -115,4 +127,4 @@ aws_s3_snowflake_tableau/
 
 B.Tech CSE | Aspiring Data Analyst
 
-SQL • Tableau • Power BI • Python • Snowflake • AWS
+**Skills:** SQL • Tableau • Power BI • Python • Snowflake • Azure

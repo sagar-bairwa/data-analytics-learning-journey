@@ -2,6 +2,7 @@
 create database Tableau
 create schema Tableau_data
 
+
 --create target table
 create table tableau_dataset
 (
@@ -20,20 +21,20 @@ create table tableau_dataset
 );
 
 --create storage integration
-create or replace storage integration  tableau_integration
+create or replace storage integration  azure_integration
  type = external_stage
- storage_provider = 'S3'
+ storage_provider = 'azure'
  enabled = true
- storage_aws_role_arn = 'arn:aws:iam::698172256911:role/tableau.role'
- storage_allowed_locations = ('s3://tableau.project.22/')
+ azure_tenant_id = '3b71067e-3991-4bd3-930e-8a3e2d10ef97'
+ storage_allowed_locations = ('azure://snowflake8890.blob.core.windows.net/tableau-project/')
 
- desc integration tableau_integration
+ desc integration azure_integration
 
 
---create stage to temporary hold data
+ --create stage to temporary hold data
 create stage tableau_stage
- url = 's3://tableau.project.22/'
- storage_integration = tableau_integration
+ url = 'azure://snowflake8890.blob.core.windows.net/tableau-project/'
+ storage_integration = azure_integration
 
  list @tableau_stage
 
@@ -52,3 +53,5 @@ on_error = 'continue';
 
 --check and validate
 select * from tableau_dataset;
+
+ 
